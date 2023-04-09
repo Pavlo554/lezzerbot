@@ -113,5 +113,6 @@ def func(message):
         # Команда
     else:
         bot.send_message(message.chat.id, text="<b>Я вас не розумію</b>".format(message.from_user), parse_mode='html')
+        #closse
 
 bot.polling(none_stop=True)
